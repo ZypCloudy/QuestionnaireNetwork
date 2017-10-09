@@ -1,0 +1,500 @@
+html {
+    height: 100%;
+}
+ul{
+    list-style:none;
+    padding:0px;
+}
+input{
+    outline:none;
+}
+body {
+    background: url('../images/reg_bg.jpg') center top no-repeat;
+    background-size: cover;
+    /*height: 100%;*/
+    margin:0;
+}
+
+a.me_logo {
+    display: block;
+    width: 151px;
+    height: 77px;
+    margin: 30px auto 20px;
+}
+
+    a.me_logo img {
+        display: block;
+        width: 151px;
+        height: 77px;
+        border: 0;
+    }
+
+.me_copyright {
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+}
+
+    .me_copyright span {
+        color: #ea6729;
+    }
+
+
+.me_con_wrap {
+    width: 315px;
+    padding: 20px 25px;
+    margin: 0 auto;
+    border: 1px solid #a9b9bf;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 8px;
+}
+
+.me_con_wrap {
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.me_con_wrap .title {
+    text-align:center;
+    font-size:16px;
+}
+    /*.me_con_wrap .title {
+        font-size: 16px;
+        overflow: auto;
+        zoom: 1;
+    }
+
+        .me_con_wrap .title li {
+            width: 125px;
+            height: 32px;
+            padding: 0 0 0 25px;
+            float: left;
+            text-align: center;
+            line-height: 32px;
+            cursor: pointer;
+        }
+
+            .me_con_wrap .title li.first_title {
+                border-right: 1px solid #cacaca;
+                padding: 0 25px 0 0;
+            }
+
+            .me_con_wrap .title li.active {
+                color: #53a4f4;
+            }*/
+
+    .me_con_wrap .agree {
+        display: block;
+        padding: 0 0 10px 0;
+        font-size: 14px;
+        color: #adadad;
+    }
+
+        .me_con_wrap .agree span {
+            cursor: pointer;
+        }
+
+            .me_con_wrap .agree span i {
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                margin-right: 5px;
+                background: #91c7ea;
+                border: #81bee3;
+                vertical-align: middle;
+            }
+            .me_con_wrap .agree span.checked i {
+                background: url('../images/checked.png') no-repeat;
+            }
+
+        .me_con_wrap .agree a {
+            color: #53a4f4;
+            margin-left: 5px;
+        }
+
+    .me_con_wrap .bt_css {
+        display: block;
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        border: 0;
+        background: #53a4f4;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .me_con_wrap .have_account {
+        text-align: center;
+        padding: 20px 0 5px;
+    }
+
+        .me_con_wrap .have_account a {
+            padding: 0 5px;
+            color: #53a4f4;
+        }
+
+    .me_con_wrap .form_list {
+        padding-top: 25px;
+    }
+
+        .me_con_wrap .form_list li {
+            border: 1px solid #cccccc;
+            margin-bottom: 10px;
+            padding: 0 12px;
+            position: relative;
+            border-radius: 4px;
+        }
+
+            .me_con_wrap .form_list li .error {
+                height: 30px;
+                line-height: 30px;
+                padding: 0 5px;
+                background: #e68278;
+                color: #fff;
+                position: absolute;
+                left: 335px;
+                top: 0;
+                white-space: nowrap;
+                padding: 0;
+            }
+
+            .me_con_wrap .form_list li .tip {
+                height: 30px;
+                line-height: 30px;
+                padding: 0 5px;
+                background: #78bbe6;
+                color: #fff;
+                position: absolute;
+                left: 335px;
+                top: 0;
+                white-space: nowrap;
+            }
+
+            .me_con_wrap .form_list li input {
+                display: block;
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                border: 0;
+                color: #616161;
+                font-size: 14px;
+            }
+
+            .me_con_wrap .form_list li.get_code {
+                padding-right: 105px;
+            }
+
+                .me_con_wrap .form_list li.get_code .btn_get_mobile_code {
+                     display: block;
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+    border: 0;
+    border-left: 1px solid #cacaca;
+    text-align: center;
+    font-size: 14px;
+    color: #53a4f4;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    cursor: pointer;
+    background: #fff;
+                }
+
+                .me_con_wrap .form_list li.get_code img {
+                    display: block;
+                    width: 63px;
+                    height: 24px;
+                    margin: 1px auto auto;
+                    border: 0;
+                }
+
+.r_info {
+    display: none;
+}
+
+    .r_info .r_title {
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+        color: #53a4f4;
+        height: 32px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .r_info .r_main {
+        margin-bottom: 10px;
+    }
+
+        .r_info .r_main p {
+            text-align: center;
+            width: 100%;
+            color: #616161;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+    .r_info .email_info {
+        margin-top: 20px;
+    }
+
+        .r_info .email_info p {
+            text-align: left;
+            width: 100%;
+            color: #aaaaaa;
+            font-size: 12px;
+            line-height: 24px;
+        }
+
+        .r_info .email_info a {
+            color: #53a4f4;
+        }
+
+/*common login*/
+.bg_ceng {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity:50) !important;
+    z-index: 999;
+}
+
+.tc_login_cq {
+    display: none;
+    width: 35%;
+    min-width: 355px;
+    max-width: 800px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    filter: alpha(opacity:0);
+    margin-top: -293px;
+    z-index: 1000;
+    background: #fff;
+    border-radius: 8px;
+    behavior: url(/static/css/PIE.htc);
+}
+
+.login_center_cq {
+    width: 315px;
+    padding: 35px 0px;
+    margin: 0 auto;
+}
+
+    .login_center_cq .error {
+        margin-bottom: 10px;
+        line-height: 20px;
+        font-size: 14px;
+        margin-top: 25px;
+        color: #f47233;
+    }
+
+    .login_center_cq .login_password, .login_center_cq .login_name {
+        position: relative;
+        border: 1px solid #bfbfbf;
+        border-radius: 4px;
+        height: 38px;
+        line-height: 38px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+        .login_center_cq .login_password i, .login_center_cq .login_name i {
+            display: inline-block;
+            width: 38px;
+            height: 38px;
+            float: left;
+            border-right: 1px solid #e9e9e9;
+            background: #f7f7f7 url(/static/images/index/name_dl.png) no-repeat center center;
+            background-size: 58%;
+        }
+
+        .login_center_cq .login_password i {
+            background: #f7f7f7 url(/static/images/index/mima_dl.png) no-repeat center center;
+            background-size: 58%;
+        }
+
+        .login_center_cq .login_password input, .login_center_cq .login_name input {
+            color: #999;
+            width: 266px;
+            height: 18px;
+            line-height: 16px;
+            padding: 10px 4px;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            border: none;
+        }
+
+    .login_center_cq input::-webkit-input-placeholder {
+        color: #999;
+    }
+
+    .login_center_cq input:-moz-placeholder {
+        color: #999;
+    }
+
+    .login_center_cq input::-moz-placeholder {
+        color: #333;
+    }
+
+    .login_center_cq input:-ms-input-placeholder {
+        color: #999;
+    }
+
+.login_forget {
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    line-height: 14px;
+}
+
+    .login_forget label {
+        display: inline-block;
+        line-height: 14px;
+        float: left;
+    }
+
+        .login_forget label input {
+            vertical-align: middle;
+        }
+
+    .login_forget a {
+        display: inline-block;
+        color: #53a4f4;
+        line-height: 14px;
+        float: right;
+    }
+
+        .login_forget a:hover {
+            color: #5089c1;
+        }
+
+.login_center_cq .loginbut, .login_center_cq .login-bind-btn, .login_center_cq .login-auth {
+    display: block;
+    background: #47b2e2;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 0px;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+    .login_center_cq .loginbut:hover, .login_center_cq .login-bind-btn:hover, .login_center_cq .login-auth:hover {
+        color: #fff;
+        background: #7dd5fc;
+    }
+
+.me_con_wrap h5, .login_center_cq h5 {
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background: url('../images/xian.png') repeat-x center center;
+    font-size: 14px;
+}
+
+    .me_con_wrap h5 span, .login_center_cq h5 span {
+        display: inline-block;
+        background: #fff;
+        padding: 0 10px;
+    }
+
+.OtherLogin {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+    .OtherLogin a {
+        margin-right: 22px;
+    }
+
+    /*.OtherLogin .login_button_qq {
+        width: 45px;
+        height: 44px;
+        background: url(/static/images/index/icon.png) no-repeat left center;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .OtherLogin .login_button_weixin {
+        width: 46px;
+        height: 44px;
+        background: url(/static/images/index/icon.png) no-repeat -67px center;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .OtherLogin .login_button_sina {
+        width: 46px;
+        height: 44px;
+        background: url(/static/images/index/icon.png) no-repeat -135px center;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .OtherLogin .login_button_renren {
+        width: 46px;
+        height: 44px;
+        background: url(/static/images/index/icon.png) no-repeat -202px center;
+        float: left;
+        margin-right: 21px;
+        margin-left: 0px;
+    }
+
+    .OtherLogin .login_button_mingdao {
+        width: 45px;
+        height: 44px;
+        background: url(/static/images/index/icon.png) no-repeat right center;
+        float: left;
+        margin-right: 0px;
+        margin-left: 0px;
+    }*/
+
+.tc_login_cq .close_tc {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(/static/images/index/gb_dl.png) no-repeat left center;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+    .tc_login_cq .close_tc:hover {
+        background: url(/static/images/index/gb_dl.png) no-repeat right center;
+    }
+
+#geetest_captcha {
+    position: relative;
+}
+
+    #geetest_captcha .error {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 5px;
+        background: #e68278;
+        color: #fff;
+        position: absolute;
+        left: 335px;
+        top: 0;
+        white-space: nowrap;
+    }

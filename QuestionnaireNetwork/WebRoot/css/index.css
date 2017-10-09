@@ -1,0 +1,63 @@
+.modal  .modal-dialog{
+    width: 35%;
+}
+.close{
+    width: 22px;
+    height: 22px;
+    font-size: 40px;
+    margin-right: 10px;
+}
+.modal .modal-body{
+	width:315px;
+	padding: 35px 0px;
+	margin:auto;
+}
+.modal .modal-body .img{
+    text-align: center;
+	padding-bottom: 35px;
+}
+.login_center_cq .login_password i, .login_center_cq .login_name i {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    float: left;
+    border-right: 1px solid #e9e9e9;
+    background: #f7f7f7 url(../images/name_dl.png) no-repeat center center;
+    background-size: 58%;
+}
+.login_forget{
+    font-size: 14px;
+}
+.login_forget a{
+	float:right;
+}
+.login_center_cq .login_password i {
+    background: #f7f7f7 url(../images/mima_dl.png) no-repeat center center;
+    background-size: 58%;
+}
+.login_center_cq .login_password, .login_center_cq .login_name {
+    position: relative;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.login_center_cq .login_password input, .login_center_cq .login_name input {
+    color: #999;
+    width: 240px;
+    border: none;
+    outline: none;
+    margin-left: 4px;
+}
+.loginbut {
+    line-height: 40px;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    background-color: #47B2E2;
+    color: #fff;
+    width: 315px;
+    border: 0;
+}

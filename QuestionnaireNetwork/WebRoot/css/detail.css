@@ -1,0 +1,9 @@
+﻿body {
+}
+.container{
+    margin:auto;   
+    width: 859px;    
+}
+.container .rows2 {
+    background: #f3f3f3;
+}

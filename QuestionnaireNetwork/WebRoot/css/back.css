@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+.operate form{
+    display: inline-block;
+}
+.operate button{
+    border: 0;
+    cursor: pointer;
+	margin-right: 14px;
+	margin-top: 20px;
+    background: #f8f8f8;
+}
+.operate button:hover{
+    background: #53a4f4;
+    color: #fff;
+	border-radius: 2px;
+}
